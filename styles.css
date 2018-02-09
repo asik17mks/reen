@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro');
+/* font-family: 'Lato', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+
+body{
+  font-family: "Source Sans Pro";
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Lato";
+}
+a:hover{
+  text-decoration: none;
+}
+.header-top{
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e6e9ed;
+  color: #506a85;
+}
+.header-top a,
+.navigation a,
+.want-work{
+  color: #506a85;
+}
+.header-top a:hover,
+.navigation a:hover{
+  color: #b1d9e3;
+}
+.header-top span{
+  margin: 0 0 0 3%;
+}
+.navigation{
+  background-color: #fff;
+}
+.navbar-toggler{
+  border: 1px solid #506a85;
+  color:#506a85;
+}
+.nav-item{
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: bold;
+  margin: 0 .5rem;
+}
+.navbar-brand{
+  margin: 0 4rem 0 0;
+}
+.dropdown-toggle::after{
+  content: none;
+}
+.btn-search{
+  border: none;
+  background-color: #fff;
+  color: #506a85;
+}
+.logo-img{
+  padding: 200px 0 ;
+}
+.logo-img{
+  min-height: 600px;
+  background-image: url('images/image-1.png');
+}
+.logo-img .container{
+  padding: 0 12.5%;
+}
+.logo-img h1{
+  font-size: 4rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.logo-img p{
+  color: #8f9faf;
+}
+.btn-green{
+  background-color: #00bc9c;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-green:hover{
+  background-color: #12e5c1;
+}
+.bcr{
+  padding: 100px 0;
+  color: #506a85;
+}
+.bcr-head{
+  padding: 0 12.5% 4rem;
+}
+.bcr h2,
+.want-work h2,
+.check h2{
+  font-size: 2.5rem;
+  margin: 0 0 2.5rem 0;
+}
+.passion,
+.creativity,
+.quality{
+  min-height: 70px;
+}
+.passion{
+  background: url("images/icon-heart.png") no-repeat top center;
+}
+.creativity{
+  background: url("images/icon-lamp.png") no-repeat top center;
+}
+.quality{
+  background: url("images/icon-star.png") no-repeat top center;
+}
+
+.check{
+  background-color: #f2f5f7;
+  color: #506a85;
+}
+.check .container{
+  padding: 100px 0;
+}
+.check .row{
+  margin: 70px 0 0 0;
+}
+.main-img{
+  background-color: #fff;
+  padding: 0 0 10px 0;
+}
+.want-work{
+  padding: 100px 16.6666%;
+}
+
+.about{
+  background-color: #2f4052;
+  color: #a3b1bf;
+  padding: 30px 0;
+}
+.about h3{
+  color: #fff;
+}
+.about a{
+  color: #a3b1bf;
+}
+.about a:hover{
+  color: #b1d9e3;
+}
+/* .portfolio{
+  width: 100%;
+  min-height: 100%;
+  background: url("images/portfolio.png") no-repeat left top;
+} */
+.contact i {
+  width: 16px;
+  margin: 0 5px 0 0;
+}
+.form-search-bottom{
+  background-color: #4e5c6c;
+}
+.form-search-bottom input{
+  background-color: #4e5c6c;
+  border: none;
+}
+.input-search{
+  display: inline-block;
+  width: 60% !important;
+}
+.footer{
+  background-color: #283645;
+  color: #616f7d;
+}
+.nav-footer .nav-link{
+  padding: 0;
+  color: #616f7d;
+}
+.nav-footer a:hover{
+  color: #b1d9e3;
+}
+.nav-footer .nav-item{
+  border-right: 1px solid #616f7d;
+  margin: 0;
+  padding: 0 .5rem;
+}
+.nav-footer .nav-item:last-child{
+  border-right:none;
+}
